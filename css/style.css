@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.main-box{
+    width: 100%;
+    height: 100vh;
+}
+
+.main-box .profile-text{
+    color: #3ec5e5;
+    font-weight: bolder;
+    font-size: 50px;
+    position: absolute;
+    top: 3%;
+    left: 45%;
+}
+
+.main-box .im{
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+    position: absolute;
+    top: 12%;
+    left: 44%;
+}
+
+.main-box .details-box{
+    width: 80%;
+    height: 40vh;
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 180px;
+}
+
+.main-box .da-box{
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-box .d-box{
+    width: 30%;
+    height: 70vh;
+}
+
+.details-box .details{
+    color: #000;
+    font-weight: 800;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+}
+
+.details-box .name{
+    color: #000;
+    font-weight: 800;
+    font-size: 16px;
+    position: absolute;
+    top: 8%;
+}
+
+.details-box .ottuh{
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    top: 15%;
+}
+
+.details-box .age{
+    color: #000;
+    font-weight: 800;
+    font-size: 16px;
+    position: absolute;
+    top: 23%;
+    display: block;
+}
+
+.details-box .years{
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    top: 30%;
+    display: block;
+}
+
+.details-box .location{
+    color: #000000;
+    font-weight: 800;
+    font-size: 16px;
+    position: absolute;
+    top: 38%;
+    display: block;
+}
+
+.details-box .second{
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    top: 44%;
+    display: block;
+}
+
+.details-box .buttons{
+    width: 5%;
+    height: 5vh;
+    position: absolute;
+    top: 53%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 30px;
+}
+
+.main-box .a-box{
+    width: 40%;
+    height: 70vh;
+}
+
+.a-box .about{
+    color: #000000;
+    font-weight: 800;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+}
+
+.a-box .Lorem{
+    color: #000000;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    top: 10%;
+    line-height: 1.7;
+}
+
+.a-box .image{
+    color: grey;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    top: 55%;
+}
+
+.a-box button{
+    position: absolute;
+    top: 60%;
+    width: 60%;
+    height: 8vh;
+    margin-top: 20px;
+    border: 2px solid red;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.a-box button:hover{
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: .3s ease;
+    transform: scale(109%);
+}
+
+.a-box button:active{
+    transform: scale(104%);
+}
+
+.a-box .contact{
+    color: #000000;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.details-box .last-box{
+    background-color: orangered;
+    width: 35%;
+    height: 70vh;
+    position: absolute;
+    top: -10%;
+    left: 70%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.lazy{
+    border-radius: 50%;
+    position: absolute;
+    top: 12%;
+    left: 72.5%;
+    height: 25vh;
+}  
+
+.last-box .hello{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 900;
+    position: absolute;
+    top: 21%;
+}
+
+.last-box .p{
+    width: 80%;
+    height: 10vh;
+    position: absolute;
+    top: 53%;
+}
+
+.last-box .I{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.last-box .button{
+    width: 5%;
+    height: 5vh;
+    position: absolute;
+    top: 73%;
+    left: 29%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    color: #fff;
+    gap: 15px;
+}
